@@ -1,0 +1,52 @@
+#mainimg
+{
+    border-radius: 10px;
+}
+#img
+{
+    border-radius: 17%;
+}
+#img:hover
+{
+box-shadow: 0 0 2px 1px rgba(0,140,186,0.5);
+}
+.container {
+    margin-top: 18px;
+    position: relative;
+    width: 50%;
+    height: 100px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 18rem;
+    height: 21rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color:rgb(48, 174, 224);
+    color: white;
+    font-size: 10px;
+   
+  }

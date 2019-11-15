@@ -1,0 +1,21 @@
+#statediv
+{
+    background-image: url('https://images.homedepot-static.com/productImages/bb0a8d37-9c0c-4ed7-84d4-757568a8ad16/svn/chesapeake-wallpaper-3117-79017sam-64_600.jpg');
+}
+.stateheading
+{
+    text-transform: uppercase;
+    text-shadow: 3px 2px rgb(171, 116, 235)
+    ;
+}
+#statecards
+{
+    background-image: url('https://backgroundcheckall.com/wp-content/uploads/2017/12/hd-background-design-7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#marqueediv
+{
+    background-image: url('../images/back3.jpg');
+    color: white;
+}
