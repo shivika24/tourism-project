@@ -1,0 +1,90 @@
+{
+    "state": [
+        {
+        "id":"0",
+        "name": "Andaman & Nicobar",
+        "capital": "Port Blair",
+        "about": "The Andaman and Nicobar Islands located in the east of the Indian mainland geographically, float in splendid isolation in the Bay of Bengal. Once a hill range extending from Myanmar to Indonesia, these picturesque undulating islands, islets numbering around 572, are covered with dense rain-fed, damp and evergreen forests and endless varieties of exotic flora and fauna. Most of these islands (about 550) are in the Andaman Group, 28 of which are inhabited. The smaller Nicobars, comprise some 22 main islands (10 inhabited). The Andaman and Nicobars are separated by the Ten Degree Channel which is 150 Kms. wide.",
+        "climate": "The islands have a tropical climate. The South-west Monsoon sets in Andaman Nicobar islands towards the end of May and the North-east Monsoon in November. There is no fury of hot summer, no chilling winter, no water clogging or traffic jams. For those who want to enjoy boating, swimming, snorkeling, sightseeing all 12 months is season. North Indians find relief from burning heat and chilling winter if they visit the island from May/June/July and in December/January. Season for nature lovers is May to December when forest is lush green and waterfalls are at their prime. Divers can enjoy the best during December to April and bird watchers during winter times.",
+        "history": "The Andaman & Nicobar Islands have been inhabited for several thousand years, at the very least. The earlier archaeological evidence yet documented goes back some 2,200 years; however, the indications from genetic, cultural and linguistic isolation studies point to habitation going back 30,000 – 60,000 years, well into the Middle Palaeolithic. In the Andaman Islands, the various Andamanese people maintained their separated existence through the vast majority of this time, diversifying into distinct linguistic, cultural and territorial groups.",
+        "time": "Andaman has a moderate temperature all through the year within the range of 23°C to 31°C. It has a tropical climate. There are no severe climate conditions except for tropical storms and rains in late summers and monsoons.Summers (March to May) are warm but pleasant with sea breeze and have humidity level about 80%. It is suitable for all kinds of tourist activities.",
+        "img":["src/state icons/andaman nicobar/andaman1.png","https://images.thrillophilia.com/image/upload/s--QOn_Mi_R--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/021/355/original/1538650912_shutterstock_1093195946.jpg.jpg?1538650912","https://www.keyshotels.com/blog/wp-content/uploads/2017/08/port-blair-sea-fish.jpg","https://dynamic.tourtravelworld.com/package-images/photo-big/dir_17/486726/202664.jpg","https://bit.ly/2XhHw19","https://bit.ly/2qTdWTu"],
+        "tourist": [
+            {
+                "name": "NEIL ISLAND",
+                "info": "Neil Island is one of India’s Andaman Islands, in the Bay of Bengal. Bharatpur Beach has coral reefs teeming with tropical fish. Laxmanpur Beach is known for its sunset views. Howrah Bridge is a natural rock formation accessible at low tide. Near the island’s wharf is Neil Kendra village, with a curving, sandy bay dotted with boats. Off the southeast coast, the tiny Sir Hugh Rose Island is a sanctuary for turtles.",
+                "images": "https://uploads-ssl.webflow.com/5b56319971ac8c7475a9d877/5c4f5622a29a8f65c7f25f3e_IMG_7728%20Neil%20Island%20(21).jpg"
+            },
+            {
+                "name":"CELLULAR JAIL,PORT BLAIR",
+                "info":"It has been an important historical part of Port Blair. Notable freedom fighters such as Veer Savarkar, Yogendra Shukla, Batukeshwar Dutt, and Babarao Savarkar were some of the inmates here. Don’t miss the light and sound show(Monday, Wednesday and Friday) when you visit Cellular jail. ",
+                "images":"https://www.holidify.com/images/cmsuploads/compressed/3616_20190213160612jpg"
+            },
+            {
+                "name":"CORBYN'S COVE,PORT BLAIR",
+                "info":"Surrounded by lush green palms, this happens to be one of the busier beaches in the Andamans. It’s located right outside of Port Blair about 8 km. The drive there itself is a scenic treat to the eyes.",
+                "images":"https://live.staticflickr.com/982/40047849690_7a78e1f816_b.jpg"
+            },
+            {
+                "name":"SAMUDRIKA NAVAL MARINE MUSEUM,PORT BLAIR",
+                "info":"This museum is a perfect blend of historical and modern Andaman. A massive blue whale, in its skeletal form, of course, greets you as you enter the museum. There is also an aquarium with fish of all shapes and sizes, from a parrotfish to the rare and venomous species of stonefish and corals.",
+                "images":"https://andamantripadvisor.in/files/social/social_b18e537c1984e883f43807737a639be4.jpg"
+            },
+            {
+                "name":"HAVELOCK ISLAND(SWARAJ DWEEP)",
+                "info":"Havelock Island is part of Ritchie’s Archipelago, in India’s Andaman Islands. It’s known for its dive sites and beaches, like Elephant Beach, with its coral reefs. Crescent-shaped Radhanagar Beach is a popular spot for watching the sunset. On the island’s east side, rocky sections mark long, tree-lined Vijaynagar Beach.",
+                "images":"https://www.tripsavvy.com/thmb/SF7NoKaUPvXKxBkDbmPrC-GSddU=/2121x1414/filters:fill(auto,1)/GettyImages-508601155-592e840f5f9b5859500d0724.jpg"
+            }
+  
+        ]
+    },
+    
+
+
+    {
+        "id":"1",
+        "name": "Punjab",
+        "capital": "Chandigarh",
+        "about": "Deriving its name from five full-bodied rivers–Sutlej, Beas, Ravi, Jhelum, and Chenab–which flow through its vast plains, Punjab is representative of abundant things. Located on the north-western edge of India, it is one of the smaller albeit prosperous states of the nation, and home to a lively, hospitable and dynamic people. Widely acknowledged as the cradle of civilization, it is a land of ethnic and religious diversity, having borne and shaped a number of religious movements that include Sikhism, Buddhism and Sufism. The Punjabi language, too, finds its origin in the Indo-European linguistic family that includes Persian and Latin. Naturally replete with fertile soils and rich water sources, it is primarily an agricultural state, and has continually and infinitely contributed towards the food security of the Indian Republic. Punjab’s many festivals–Teej, Lohri, Basant, and Baisakhi, to name some–are celebrations that mirror the farming ethos. Indeed, Bhangra, the traditional dance of Punjab revolves around, and replicates a farmer’s daily life. Historically, Punjab has played host to a number of ethnicities, including the Aryans, Persians, Greeks, Afghans and Mongols, thus bestowed with a rich tangible heritage. Reflecting this history are the countless sites that dot the state: impressive forts & palaces, ancient monuments, architectural marvels and many a battlefield.",
+        "climate": "The Summer in Punjab actually commences from mid April but the temperature starts rising from February onwards. Rainfall ranges from 250mm to 1000mm. Agriculture in the state highly depends on the rains. The winter season in Punjab is mostly experienced in the month of January, when the temperature falls to 5°C in the night and hovers around 12°C in the day. In the post winter transitional season, hail-storms and brief showers occur which cause damage to the crops. The wind becomes dry by the end of March. The Punjab climate has been a significant factor in shaping the economy of the state.",
+        "history": "The history of Punjab goes back thousands of years. Undivided Punjab has been the cradle of the Indus Valley Civilization, the remains of which can be seen at the Ropar archaeological site and its dedicated museum. This fertile ancient land finds mention even in Mahabharata and Ramayana. Infact it is believed that the Ramayana was written here by Valmiki ji. Places like Rupnagar, Kiratpur, Dholbaha, Rohira and Ghuram...all in Punjab; have unearthed artifacts that date back centuries. In Sanghol are 107 statues of the Kushan period evoking memories of a flourishing Buddhist monastery. This monastery was visited by Hiuen Tsang in the 7th century.",
+        "time": "The best time to visit Punjab is in the spring, from February to April, and in the autumn, from September to November.",
+        "img":["https://bit.ly/2qTdWTu","https://images.thrillophilia.com/image/upload/s--QOn_Mi_R--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/021/355/original/1538650912_shutterstock_1093195946.jpg.jpg?1538650912","https://www.keyshotels.com/blog/wp-content/uploads/2017/08/port-blair-sea-fish.jpg","https://dynamic.tourtravelworld.com/package-images/photo-big/dir_17/486726/202664.jpg","https://bit.ly/2XhHw19","https://bit.ly/2qTdWTu"],
+        "tourist": [
+            {
+                "name": "GOLDEN TEMPLE",
+                "info": "The Golden Temple, also known as Harmandir Sahib or Darbār Sahib, is a Gurdwara located in the city of Amritsar, Punjab, India. It is the holiest Gurdwara and the most important pilgrimage site of Sikhism.The temple is built around a man-made pool (sarovar) that was completed by Guru Ram Das in 1577.Guru Arjan – the fifth Guru of Sikhism, requested Sai Mian Mir – a Muslim Pir of Lahore to lay its foundation stone in 1589.In 1604, Guru Arjan placed a copy of the Adi Granth in Harmandir Sahib, calling the site Ath Sath Tirath (lit. shrine of 68 pilgrimages).The temple was repeatedly rebuilt by the Sikhs after it became a target of persecution and was destroyed several times by the Muslim armies from Afghanistan and the Mughal Empire.The army led by Ahmad Shah Abdali, for example, demolished it in 1757 and again in 1762, then filled the pool with garbage and blood of cows.Maharaja Ranjit Singh after founding the Sikh Empire, rebuilt it in marble and copper in 1809, overlaid the sanctum with gold foil in 1830. This has led to the name the Golden Temple.",
+                "images": "https://uploads-ssl.webflow.com/5b56319971ac8c7475a9d877/5c4f5622a29a8f65c7f25f3e_IMG_7728%20Neil%20Island%20(21).jpg"
+            },
+            {
+                "name":"WAGAH BORDER",
+                "info":"Located at a distance of 22 km from Lahore and 28 km from Amritsar, Wagah Border marks the boundaries between Indian and Pakistani borders. It runs along the Grand Trunk Road between Amritsar in Punjab, India, and Punjab in Lahore, Pakistan. People from all over the country visit this place to witness the Beating Retreat Ceremony that is held every day before sunset. This ceremony includes the closing of the international gates and lowering the flags of both countries. It is a spectacle to be witnessed and is an occasion where the heart of every Indian is filled with pride and enthusiasm. The flag ceremony has been conducted by the Indian Border Security Force and Pakistan Rangers since 1959.Every evening, just before the sunset, the soldiers from the Indian and Pakistan military meet at this border post to engage in a 30-minute display of military camaraderie and showmanship. Officially, the purpose of the ceremony is to formally close the border for the night and lower the national flag. However, it is an entertainment ceremony and a  display of national pride for the thousands of people who come here every day. During the build-up to the ceremony, the crowd engages in chanting the Indian national anthem, rounds of applause and Bollywood-style dancing on Hindi songs.",
+                "images":"https://www.holidify.com/images/cmsuploads/compressed/3616_20190213160612jpg"
+            },
+            {
+                "name":"JALLIANWALA BAGH",
+                "info":"Jallianwala Bagh is a historic garden and ‘memorial of national importance’ in Amritsar, India, preserved in the memory of those wounded and killed in the Jallianwala Bagh Massacre that occurred on the site on the festival of Vaisakhi, 13 April 1919.It houses a museum, gallery and a number of memorial structures.The 7-acre (28,000 m2) garden site of the massacre is located in the vicinity of the Golden Temple complex, the holiest shrine of Sikhism and is managed by the Jallianwala Bagh National Memorial Trust, which was established as per the 'Jallianwala Bagh National Memorial Act, 1951'.",
+                "images":"https://live.staticflickr.com/982/40047849690_7a78e1f816_b.jpg"
+            },
+            {
+                "name":"BHAKRA NANGAL DAM",
+                "info":"Bhakra Dam is a concrete gravity dam on the Sutlej River in Bilaspur, Himachal Pradesh in northern India. The dam forms the Gobind Sagar reservoir.The dam, located at a gorge near the (now submerged) upstream Bhakra village in Bilaspur district of Himachal Pradesh of height 226 m. The length of the dam (measured from the road above it) is 518.25 m and the width is 9.1 m. Its reservoir known as 'Gobind Sagar' stores up to 9.34 billion cubic metres of water. The 90 km long reservoir created by the Bhakra Dam is spread over an area of 168.35 km2. In terms of quantity of water, it is the third largest reservoir in India, the first being Indira Sagar dam in Madhya Pradesh with capacity of 12.22 billion cu m and second Nagarjunasagar Dam.",
+                "images":"https://andamantripadvisor.in/files/social/social_b18e537c1984e883f43807737a639be4.jpg"
+            },
+            {
+                "name":"SUKHNA LAKE",
+                "info":"Sukhna Lake in Chandigarh, India, is a reservoir at the foothills (Shivalik hills) of the Himalayas. This 3 km² rainfed lake was created in 1958 by damming the Sukhna Choe, a seasonal stream coming down from the Shivalik Hills. Originally the seasonal flow entered the lake directly causing heavy siltation. To check the inflow of silt, 25.42 km² of land was acquired in the catchment area and put under vegetation. In 1974, the Choe was diverted and made to bypass the lake completely, the lake being fed by three siltation pots, minimising the entry of silt into the lake itself.",
+                "images":"https://www.tripsavvy.com/thmb/SF7NoKaUPvXKxBkDbmPrC-GSddU=/2121x1414/filters:fill(auto,1)/GettyImages-508601155-592e840f5f9b5859500d0724.jpg"
+            },
+            {
+                "name":"SHAHPUR KANDI FORT ",
+                "info":"The Shahpur Kandi Fort, named after Shah Jahan, nestles on the banks of the Ravi River in the picturesque foothills of the Himalayas. Located on the outer periphery of Pathankot, it was built in the 16th century, and stands surrounded by outstanding natural beauty. A part of the fort functions as a rest house today.Shahpur Kandi fort is located 7Kms from Pathankot and presently it has been converted into a beautiful rest house. It is named after Shah Jahan and was built by Bhao Singh in 16th Century. It is majestically located on the banks of river Ravi. There are a few small heritage monuments like tombs and a mosque.",
+                "images":"https://www.tripsavvy.com/thmb/SF7NoKaUPvXKxBkDbmPrC-GSddU=/2121x1414/filters:fill(auto,1)/GettyImages-508601155-592e840f5f9b5859500d0724.jpg"
+            }
+  
+        ]
+    }
+
+]
+  
+  }
