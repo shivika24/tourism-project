@@ -2,9 +2,9 @@ import React,{Component} from 'react';
 import Form from './components/registerationform';
 import Home from './components/home';
 import Navbar from './components/navbar';
-import {BrowserRouter,Route} from 'react-router-dom';
+import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import Tourism from './components/tourismform';
-import Add from './components/addtourist';
+import Addtourist from './components/addtourist';
 import Footer from './components/footer';
 import States from './components/states';
 import Statedisplay from './components/statedisplay';
@@ -16,28 +16,34 @@ class App extends Component
     tour:[],
     loading: false
     }
-    async componentDidMount() {
-      const url = 'http://localhost:3004/state';
+     componentDidMount() {
+      /*const url = 'http://localhost:3004/state';
       const response = await fetch(url);
       const data = await response.json();
-      this.setState({tour:data,loading:true});
+      this.setState({tour:data,loading:true});*/
+      fetch('http://localhost:3004/state') 
+      .then(res =>{return res.json()})  
+      .then(res =>{
+        setTimeout(()=>{ 
+         this.setState({tour:res});
+        },1000)
+      })
     }
   render()
   {
     return (
      <BrowserRouter>
-     <Navbar/>
-
-     <switch>
+     <Navbar tour1={this.state.tour}/>
+     <Switch>
      <Route path="/" exact render={() => <Home tour={this.state.tour}/>}/>
      <Route path="/Home" render={() => <Home tour={this.state.tour}/>}/>
      <Route path="/Form" component={Form}/>
      <Route path="/Tourism" component={Tourism}/>
-     <Route path="/Addtourist" component={Add}/>
+     <Route path="/Addtourist" component={Addtourist}/>
      <Route path="/state" render={() => <States tour={this.state.tour}/>}/>
      <Route path="/statedisplay" component={Statedisplay}/>
      <Route path="/gallery" component={Gallery}/>
-     </switch>
+     </Switch>
 
      <Footer/>
      </BrowserRouter>      

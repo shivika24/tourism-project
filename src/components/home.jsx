@@ -21,9 +21,7 @@ class Home extends Component
         <About/>
         </div>
         </div>
-
-        <Places statespass={this.props.tour}/>
-        
+        <Places statespass={this.props.tour}/>        
         </div>
         )
     }

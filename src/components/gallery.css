@@ -1,16 +1,20 @@
 #mainimg
 {
     border-radius: 10px;
+    height:27vw;
+    width:100vw;
 }
-#img
+#iii1,#iii2,#iii3,#iii4,#iii5,#iii6
 {
-    border-radius: 17%;
+   
+    height: 10vw;
+    width: 17vw;;
 }
 #img:hover
 {
 box-shadow: 0 0 2px 1px rgba(0,140,186,0.5);
 }
-.container {
+.containergal {
     margin-top: 18px;
     position: relative;
     width: 50%;
@@ -20,8 +24,8 @@ box-shadow: 0 0 2px 1px rgba(0,140,186,0.5);
   .image {
     opacity: 1;
     display: block;
-    width: 18rem;
-    height: 21rem;
+    width: 22vw;
+    height: 26.5vw;
     transition: .5s ease;
     backface-visibility: hidden;
   }
@@ -36,17 +40,24 @@ box-shadow: 0 0 2px 1px rgba(0,140,186,0.5);
     -ms-transform: translate(-50%, -50%)
   }
   
-  .container:hover .image {
+  .containergal:hover .image {
     opacity: 0.3;
   }
   
-  .container:hover .middle {
+  .containergal:hover .middle {
     opacity: 1;
   }
   
-  .text {
+  .textabout {
     background-color:rgb(48, 174, 224);
     color: white;
-    font-size: 10px;
+    font-size: 0.8vw;
+    width:21vw;
+    height: 25.5vw;
+    text-align: center;
+    margin-top: 16px;
    
   }
+
+
+  

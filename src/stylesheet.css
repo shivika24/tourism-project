@@ -47,7 +47,7 @@ background-attachment: fixed;
 } 
 .d1
 {
-    height: 60vh;
+    height: 100%;
     background-image: url('./images/opt.jpg');
   
 }
@@ -58,14 +58,32 @@ background-attachment: fixed;
 }
   
 footer{
-    background:rgb(1, 41, 66);
+    background:rgb(73, 108, 129);
 } 
 #page-footer{
-    background:rgb(104, 133, 151);
+    background:rgb(57, 112, 146);
     
 }
 #page
 {
 
     background-image: url('http://gdj.graphicdesignjunction.com/wp-content/uploads/2011/02/background-pattern-design-90.jpg');
+}
+.searchclass
+{
+    font-family: Whitney;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    width: 95%;
+    color: #696E79;
+    box-sizing: content-box;
+    padding: 8px 10px 10px 10px;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #F5F5F6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #F5F5F6;
 }

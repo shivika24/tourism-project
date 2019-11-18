@@ -1,16 +1,20 @@
 import React,{ Component } from 'react';
 import {Link} from 'react-router-dom';
 import Addtourist from './addtourist';
-import '../bg.css';
+import './tourismform.css';
+import 'hover.css/css/hover-min.css';
 class Tourismform extends Component
 {
     render()
     {
-        return <div className="container-fluid col-md-6" id="d111">
+        return <div>
+        <div className="container-fluid col-md-6" id="d111">
+        <p className="formhead">STATE DETAILS</p>
+        <form>
         <div class="form-group">
           <label><b>Id</b></label>
           <input type="text" class="form-control" id="iid" placeholder="id"/>
-        </div>
+        </div> 
         <div class="form-group">
         <label><b>State</b></label>
         <input type="text" class="form-control" id="state" placeholder="State"/>
@@ -41,9 +45,11 @@ class Tourismform extends Component
         <input type="text" class="form-control" id="images" placeholder="Images Link"/>
         </div>
 
-        <button class="btn btn-outline-info"><Link to="/Addtourist" style={{color:"white",textDecoration:"none"}}>Add Tourist Places</Link></button> <br/><br/>
+        <button class="btn hvr-rectangle-out" id="addbutton"><Link to="/Addtourist" style={{color:"white",textDecoration:"none"}}>Add Tourist Places</Link></button> <br/><br/>
 
-        <button  class="btn btn-secondary">Submit</button>       
+        <center><button  class="hvr-shutter-out-vertical" id="submitbut">Submit</button></center> 
+        </form>    
+        </div>
         </div>
     }
 }

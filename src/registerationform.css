@@ -6,7 +6,7 @@
     border-radius: 4px;
     resize: vertical;
     font-size: 20px;
-  }
+  } 
   
   label {
     padding: 12px 12px 12px 0;
@@ -14,7 +14,7 @@
     font-size: 25px;
   }
   
-  .ssubmit {
+  #ssubmit {
     background-color: #468a95;
     color: white;
     padding: 12px 20px;
@@ -26,7 +26,7 @@
     margin-top: 5px;
   }
   
-  .ssubmit:hover {
+  #ssubmit:hover {
     background-color: rgb(164, 89, 173);
   }
   

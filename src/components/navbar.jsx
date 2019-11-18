@@ -4,6 +4,34 @@ import logo from '.././images/logo.png';
 import '../stylesheet.css';
 class Navbar extends Component
 {
+  constructor()
+  {
+    super();
+    this.state={
+      items:[],
+      initialItems:[]
+    }
+    
+    this.filterList=this.filterList.bind(this);
+  }
+  componentDidMount()
+  {
+      this.setState({
+        initialItems:this.props.tour1,
+        items:this.props.tour1
+      })
+  }
+  filterList()
+  {
+       let items=this.state.initialItems;
+       let x=document.getElementById("isearch");
+       console.log(x)
+       items=items.filter((item)=>{
+         return item.name!==x.value;
+       })
+       this.setState({items:items});
+  }
+
     render()
     {
         return (
@@ -30,8 +58,22 @@ class Navbar extends Component
     <li className="nav-item">
     <Link className="nav-link" to="/Form" id="navtext">Register</Link>
   </li>
+   <li>
+   <form>
+  <input type="text" placeholder="Search For Tourist Places" onChange={() => this.filterList} id="isearch"/>
+  </form>
+</li>
+
+    <li>
+    <div>
+    {this.state.items.map((item)=>
+     <div>{item.name}</div>
+    )}
+    </div>
+    </li>
     </ul>
   </div>
+  
 </nav>
         )
     }
