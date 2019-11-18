@@ -1,0 +1,8 @@
+#nav{
+	background-color: #00000038;
+	box-shadow: 13px -5px 40px 3px;
+}
+#nav a{
+	font-size: 20px;
+	color: white;
+}
