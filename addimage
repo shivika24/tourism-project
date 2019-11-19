@@ -1,0 +1,8 @@
+<form>
+     <div>
+     <div id="dynamicInput">
+      Image Link 1<br><input type="text" name="myInputs[]" id="image1">
+     </div>
+     <input type="button" value="Add another image box" onClick="addInput('dynamicInput');"/>
+     </div>
+</form>
