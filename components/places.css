@@ -1,0 +1,10 @@
+#homeimg
+{
+    height:8vw;
+    width: 12vw;    
+    margin-right:15vw;
+}
+#mydiv
+{
+    display: inline-flex;
+}
