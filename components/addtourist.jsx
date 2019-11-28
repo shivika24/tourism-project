@@ -1,7 +1,8 @@
 import React,{ Component } from 'react';
-import {Redirect} from 'react-router-dom';
+import {Redirect,Link} from 'react-router-dom';
 import './addtourist.css';
 import 'hover.css/css/hover-min.css';
+
 class Addtourist extends Component
 {
   constructor()
@@ -12,8 +13,9 @@ class Addtourist extends Component
       arr:[]
     }
   }
-  fun1()
+  fun1(e)
   {
+    e.preventDefault();
     const ta=document.getElementById("tname").value;
     const tb=document.getElementById("tabout").value
     const tc=document.getElementById("timages").value;
@@ -31,11 +33,11 @@ class Addtourist extends Component
     document.getElementById("tname").value='';
     document.getElementById("tabout").value='';
     document.getElementById("timages").value='';
-    document.getElementById("tlocation").value='';
-    
+    document.getElementById("tlocation").value='';    
   }
-  fun2()
+  fun2(e)
   {
+    e.preventDefault();
     console.log(this.state.arr);
     this.props.ondata(this.state.arr);
   }
@@ -48,7 +50,7 @@ class Addtourist extends Component
           <input type="text" class="form-control" id="tname" placeholder="Tourist Place Name"/>
         </div> 
         <div class="form-group">
-        <label id="ilabel1"><b>About</b></label>
+        <label id="ilabel1"><b>About</b></label> 
         <textarea class="form-control" id="tabout" placeholder="About"/>
         </div>
         <div class="form-group">
@@ -59,8 +61,8 @@ class Addtourist extends Component
         <label id="ilabel1"><b>Location</b></label>
         <input type="text" class="form-control" id="tlocation" placeholder="Location"/>
         </div>
-        <center><button  className="hvr-shutter-out-horizontal" onClick={() => this.fun1()} id="submitbut1" >Submit</button></center>
-        <button  onClick={() => this.fun2()}>back</button>
+        <button  className="hvr-shutter-out-horizontal" onClick={(e) => this.fun1(e)} id="submitbut1" >ADD</button>
+        <button className="hvr-shutter-out-horizontal" id="submitbut1" onClick={(e) => this.fun2(e)}><Link to="/Tourism" style={{color:"white",textDecoration:"none"}}>SUBMIT</Link></button>
         </div>
         
     }

@@ -1,0 +1,42 @@
+#statediv
+{
+    background-image: url('../images/div1.jpg');
+}
+.stateheading
+{
+    text-transform: uppercase;
+    text-shadow: 3px 2px rgb(171, 116, 235)
+    ;
+}
+#statecards
+{
+    background-image: url('https://www.publicdomainpictures.net/pictures/200000/nahled/damask-pattern-background-blue-1477671794jKy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#marqueediv
+{
+    background-image: url('../images/back3.jpg');
+    color: white;
+}
+#climatee
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px 5px;
+    width: 100%;
+    margin-left: 0px;
+    background-color: white;
+    
+}
+#climatediv
+{
+    
+    background-image: url('../images/modal.jpg');
+    height:19vw;
+}
+#clipara
+{
+    font-size: 1.1vw;
+}

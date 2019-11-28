@@ -1,23 +1,18 @@
 body{
-    background-image: url('https://previews.123rf.com/images/bitontawan02/bitontawan021408/bitontawan02140800013/30494969-travel-background-pattern.jpg');
+    background-image: url('https://thumbs.dreamstime.com/z/blue-seamless-floral-pattern-background-white-flowers-light-back-30685590.jpg');
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: scroll;
 }
-#d111
+
+.mainHeading
 {
-    box-shadow: -1px 1px 60px 10px black;
-    background: rgba(0,0,0,0.4);
-    margin-top: 100px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
-.form-control
-{
-	background: transparent;
-	border-right: 0px;
-	border:0px;
-	border-bottom: 1px solid white;
-	font-size: 18px;
-	margin-top: 15px;
-	height: 40px;
-    color: white;
-}
+
+
+
+
