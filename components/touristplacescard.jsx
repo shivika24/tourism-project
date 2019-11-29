@@ -1,31 +1,30 @@
 import React,{ Component } from 'react';
-import {Link} from 'react-router-dom';
 import Disp from './modaldisp';
-import 'bootstrap/dist/css/bootstrap.css';
 import './touristplacescard.css';
-import 'hover.css/css/hover-min.css';
 class Touristplacescard extends Component
 {
     render()
     {
         return (
             <div>
-            <div className="row" style={{margin:10 , padding:"10px"}}>
+            <div className="row">
             {this.props.arr.map(i=> {
-                return <div className="card col-lg-3 col-md-4 col-6"  id="c123">
-            <img className="card-img-top" src={i.images} alt="Card image cap" id="cimg"/>
+                return <div className="card" id="c123" style={{width: "18rem"}}>
+            <img className="card-img-top" src={i.images} alt="Card image cap"/>
             <div className="card-body">
-            <p className="card-title" id="titlecard">{i.name}</p>
-            <Disp info={i.info} name={i.name} image={i.images} location={i.location}/>
+            <h5 className="card-title">{i.name}</h5>
+            <Disp info={i.info} name={i.name} image={i.images}/>
+            
             </div>
             </div>
                 }
-                )} 
+                )}
+
                 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content" id="mymodalss">
+                  <div class="modal-content" id="mymodal">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="i2" className="headingss"></h5>
+                      <h5 class="modal-title" id="i2" className="heading"></h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -39,10 +38,11 @@ class Touristplacescard extends Component
                     <p id="i3" className="para"></p>
                     </div>
                     </div>
+
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="hvr-bounce-to-right btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="hvr-bounce-to-right btn btn-secondary"><a className="aloc" id="i4">location</a></button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                   </div>
                 </div>

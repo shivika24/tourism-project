@@ -1,9 +1,19 @@
 #c123
 {
-    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
-.headingss
+.images
+{
+    margin: 0 auto;
+    box-shadow: 1px 2px 5px 0 #c3b683;
+    border-radius: 3px;
+    height: 261px;
+    width: 180px;
+}
+.heading
 {
     font-size: 30px;
     color: #008CBA;
@@ -15,24 +25,7 @@
   text-align: center;
   color: purple;
 }
-#mymodalss
+#mymodal
 {
-    background-image: url('../images/back5.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-#cimg
-{
-    box-shadow: 1px 2px 5px 0 #c3b683;
-    border-radius: 3px;
-    height: 150px;
-}
-a
-{
-  color:white;
-  text-decoration: none;
-}
-#titlecard
-{
-    text-transform: uppercase;
+    background-image: url('../images/modal.jpg');
 }

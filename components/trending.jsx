@@ -1,6 +1,5 @@
 import React,{ Component } from 'react';
 import Slide1 from './slide1';
-import {Link} from 'react-router-dom';
 import './trending.css';
 class Trending extends Component
 {

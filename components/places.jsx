@@ -1,34 +1,37 @@
 import React, { Component } from "react";
 import '../stylesheet.css';
 import {Link} from 'react-router-dom';
-import './places.css';
 class Places extends Component
 {
   state={
-    datapass:''
+    datastate:''
   }
    render() {
     return (
       <div>
         <div className="font-small mdb-color lighten-3 pt-4" id="page">
-          <div>
-            <div className="row"  id="mydiv" style={{marginRight:0}}>
+          <div className="container">
+            <div className="row" >
+              <div className="col-lg-2 col-md-12 mb-4">
+                <div className="view overlay z-depth-1-half"> 
+
                 {this.props.statespass.map(i=>{
-                  return <div className="col-lg-2 col-md-4 col-sm-12 hvr-grow" style={{marginBottom:10}}><Link to={{
+                  return <Link to={{
                    pathname: "/statedisplay",
                    state: {
                    datapass: i
                    }
                    }} >
                    <img
-                   src={i.img[0]}
+                   src={i.img[1]}
                    className="img-fluid"
-                   id="homeimg"
                    alt=""
                    />
-                   </Link></div>                            
+                   </Link>                              
                    }
                    )}                   
+                </div>
+              </div>
             </div>
           </div>
         </div>

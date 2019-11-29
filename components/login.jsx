@@ -1,6 +1,5 @@
 import React,{ Component } from 'react';
 import {Link} from 'react-router-dom';
-import Form from './registeration-form';
 import '../stylesheet.css';
 class Login extends Component
 {

@@ -10,7 +10,8 @@ class Statesfirst extends Component
             <div>
             <Title name={this.props.tour.name}/>
             <Stateslide img={this.props.tour.img}/>
-            <p>{this.props.tour.history}</p>                      
+            <p>{this.props.tour.history}</p>
+                      
             </div>
         )
     }

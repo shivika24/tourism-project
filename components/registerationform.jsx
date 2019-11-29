@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import '../registerationform.css';
-import 'hover.css/css/hover-min.css';
 
 class Registrationform extends Component {
   render() {
@@ -105,38 +104,8 @@ class Registrationform extends Component {
                 </div>
               </div>
               <div className="row">
-                <div className="col-25">
-                  <label >Password</label>
-                </div>
-                <div className="col-75">
-                  <input
-                    type="password"
-                    id="pass"
-                    name=""
-                    placeholder="Password"
-                    className="sinput"
-                  />
-                </div>
-              </div>
-
-              <div className="row">
-                <div className="col-25">
-                  <label >Re-Enter Password</label>
-                </div>
-                <div className="col-75">
-                  <input
-                    type="password"
-                    id="pass1"
-                    name=""
-                    placeholder="Re-Enter Password"
-                    className="sinput"
-                  />
-                </div>
-              </div>
-
-              <div className="row">
                 
-                  <button defaultValue="Submit" class="hvr-shutter-out-vertical" id="ssubmit" style={{width:"79vw"}}>Submit</button>
+                  <input type="submit" defaultValue="Submit" className="ssubmit" style={{width:"79vw"}} />
                 
               </div>
             </form>

@@ -1,6 +1,6 @@
 #statediv
 {
-    background-image: url('../images/div1.jpg');
+    background-image: url('https://images.homedepot-static.com/productImages/bb0a8d37-9c0c-4ed7-84d4-757568a8ad16/svn/chesapeake-wallpaper-3117-79017sam-64_600.jpg');
 }
 .stateheading
 {
@@ -10,7 +10,7 @@
 }
 #statecards
 {
-    background-image: url('https://www.publicdomainpictures.net/pictures/200000/nahled/damask-pattern-background-blue-1477671794jKy.jpg');
+    background-image: url('https://backgroundcheckall.com/wp-content/uploads/2017/12/hd-background-design-7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -18,25 +18,4 @@
 {
     background-image: url('../images/back3.jpg');
     color: white;
-}
-#climatee
-{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 100px 5px;
-    width: 100%;
-    margin-left: 0px;
-    background-color: white;
-    
-}
-#climatediv
-{
-    
-    background-image: url('../images/modal.jpg');
-    height:19vw;
-}
-#clipara
-{
-    font-size: 1.1vw;
 }

@@ -2,13 +2,12 @@ import React,{ Component } from 'react';
 import image1 from '.././images/i1.jpg';
 import image2 from '.././images/i2.jpg';
 import image3 from '.././images/i3.jpg';
-import image4 from '.././images/kerela1.jpg';
+import image4 from '.././images/i4.jpg';
 import image5 from '.././images/i5.jpg';
-import image6 from '.././images/kerela.jpg';
+import image6 from '.././images/i6.jpg';
 import image7 from '.././images/i7.jpg';
 import image8 from '.././images/i8.jpg';
 import image9 from '.././images/i9.jpeg';
-import {Link} from 'react-router-dom';
 import '../stylesheet.css';
 class Slide extends Component
 {
@@ -16,7 +15,7 @@ class Slide extends Component
     {
         return (<div>
     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-    <ol className="carousel-indicators">
+  <ol className="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
