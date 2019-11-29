@@ -19,7 +19,6 @@ class Addtourist extends Component
         </div>
         <button  class="btn btn-secondary">Submit</button> 
         </div>
-        
     }
 }
 export default Addtourist;
