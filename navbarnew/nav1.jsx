@@ -1,7 +1,5 @@
 import React,{ Component } from 'react';
 import {Link} from 'react-router-dom';
-import logo from '.././images/logo.png';
-import './nav1.css';
 class Nav1 extends Component
 {
   state={
@@ -20,9 +18,9 @@ class Nav1 extends Component
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <Link class="nav-link" to={{
-                  pathname: "/state1",
+                  pathname: "/overview",
                   state: {
-                  datapass1: this.props.arr
+                  datapass1: this.props.datanav
                   }
                   }}>Overview <span class="sr-only">(current)</span></Link>
               </li>
@@ -30,22 +28,10 @@ class Nav1 extends Component
                 <Link class="nav-link" to={{
                   pathname: "/state2",
                   state: {
-                  datapass2: this.props.arr
+                  datapass2: this.props.datanav
                   }
                   }}>Places To Visit</Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Photos</a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link" href="#">Map View</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Food</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">Best Time To Visit</a>
-        </li>
             </ul>
           </div>
         </nav>
