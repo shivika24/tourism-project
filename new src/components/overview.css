@@ -1,0 +1,9 @@
+.stateheading
+{
+    text-transform: uppercase;
+    text-shadow: 3px 2px rgb(171, 116, 235);
+}
+#statediv
+{
+    background-image: url('../images/div1.jpg');
+}

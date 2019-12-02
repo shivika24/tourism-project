@@ -1,0 +1,27 @@
+
+#marqueediv
+{
+    background-image: url('../images/back3.jpg');
+    color: white;
+}
+#climatee
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px 5px;
+    width: 100%;
+    margin-left: 0px;
+    background-color: white;
+    
+}
+#climatediv
+{
+    
+    background-image: url('../images/modal.jpg');
+    height:19vw;
+}
+#clipara
+{
+    font-size: 1.1vw;
+}
