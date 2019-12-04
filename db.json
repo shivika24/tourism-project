@@ -1,4 +1,146 @@
 {
+  "loc":[
+    {
+        "state":"Andhra Pradesh",
+        "lat":"15.912900" ,
+        "long":"79.739990"
+    },
+    {
+       "state":"Arunachal Pradesh",
+       "lat":"28.217999" ,
+       "long":"94.727753"
+    },
+    {
+        "state":"Assam",
+        "lat":"26.200603" ,
+        "long":"92.937576"
+    },
+    {
+        "state":"Bihar",
+        "lat":"25.096073" ,
+        "long":"85.313118"
+    },
+    {
+        "state":"Chattisgarh",
+        "lat":"21.278658" ,
+        "long":"81.866142"
+    },
+    {
+        "state":"Goa",
+        "lat":"15.299326" ,
+        "long":"74.123993"
+    },
+    {
+        "state":"Gujarat",
+        "lat":"22.258652" ,
+        "long":"71.192383"
+    },
+    {
+        "state":"Haryana",
+        "lat":"29.058777" ,
+        "long":"76.085602"
+    },
+    {
+        "state":"Himachal Pradesh",
+        "lat":"31.104830" ,
+        "long":"77.173393"
+    },
+    {
+        "state":"Jharkhand",
+        "lat":"23.610182" ,
+        "long":"85.279938"
+    },
+    {
+        "state":"Karnataka",
+        "lat":"15.317277" ,
+        "long":"75.713890"
+    },
+    {
+        "state":"Kerala",
+        "lat":"10.850516" ,
+        "long":"76.271080"
+    },
+    {
+        "state":"Madhya Pradesh",
+        "lat":"22.973423" ,
+        "long":"78.656891"
+    },
+    {
+        "state":"Maharashtra",
+        "lat":"19.751480" ,
+        "long":"75.713890"
+    },
+    {
+        "state":"Manipur",
+        "lat":"24.663717" ,
+        "long":"93.906265"
+    },
+    {
+        "state":"Meghalaya",
+        "lat":"25.572491" ,
+        "long":"91.310760"
+    },
+    {
+        "state":"Mizoram",
+        "lat":"23.164543" ,
+        "long":"92.937576"
+    },
+    {
+        "state":"Nagaland",
+        "lat":"26.117500" ,
+        "long":"94.288300"
+    },
+    {
+        "state":"Orissa",
+        "lat":"20.188650" ,
+        "long":"84.440849"
+    },
+    {
+        "state":"Punjab",
+        "lat":"31.147129",
+        "long":"75.341217"
+    },
+    {
+        "state":"Rajasthan",
+        "lat":"27.023804",
+        "long":"74.217934"
+    },
+    {
+        "state":"Sikkim",
+        "lat":"27.532972",
+        "long":"88.512215"
+    },
+    {
+        "state":"Tamil Nadu",
+        "lat":"11.127123",
+        "long":"78.656891"
+    },
+    {
+        "state":"Telangana",
+        "lat":"18.112436",
+        "long":"79.019302"
+    },
+    {
+        "state":"Tripura",
+        "lat":"23.940847",
+        "long":"91.988152"
+    },
+    {
+        "state":"Uttar Pradesh",
+        "lat":"26.846708",
+        "long":"80.946159"
+    },
+    {
+        "state":"Uttarakhand",
+        "lat":"29.379910",
+        "long":"79.477386"
+    },
+    {
+        "state":"West Bengal",
+        "lat":"22.986757",
+        "long":"87.854973"
+    }
+],
   "state": [
     {
       "id": "1",
