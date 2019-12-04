@@ -44,8 +44,8 @@ class Besttime extends Component{
     render(){
         return(
             <div>
-            {this.state.loading||this.state.cli?(
-                <div>{console.log('loading')}</div>):(
+            {this.state.loading||! this.state.cli ? (
+                <div>{console.log('loading')}</div> ):(
                     <div>
                     {console.log(this.state.cli.currently)}
                         <Nav1 datanav={this.props.location.state.datapass6}/>
