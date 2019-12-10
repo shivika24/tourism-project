@@ -1,0 +1,18 @@
+body{
+    background-image: url('https://thumbs.dreamstime.com/z/blue-seamless-floral-pattern-background-white-flowers-light-back-30685590.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.mainHeading
+{
+    
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+
+
+

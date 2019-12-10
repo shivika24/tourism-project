@@ -1,0 +1,18 @@
+.row{
+    margin-right: 0px;
+}
+#ssearch{
+    z-index: 100;
+    margin-top: -15px;
+    position: absolute;
+    margin-left: 32vw;
+    width: 36vw;
+    height: 3vw;
+    border-radius: 5px;
+
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/search.png');
+    background-position: 33vw 0vw; 
+    background-repeat: no-repeat;
+}

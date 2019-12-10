@@ -1,0 +1,61 @@
+.formhead
+{
+    color: darkgoldenrod;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+#d111
+{
+    box-shadow: 7px 4px 18px #314042; 
+    background: rgba(129, 176, 216, 0.48);
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('http://greeceblog.info/wp-content/uploads/2019/04/baker-wallpaper-metallic-shadow-fern-print-on-marine-blue-and-gold.jpg');
+    border: 5px double #af7931;
+    position: relative;
+    padding: 30px;
+    
+   
+}
+.form-control
+{
+	background: transparent;
+	border-right: 0px;
+	border:0px;
+	border-bottom: 1px solid white;
+	font-size: 18px;
+	margin-top: 15px;
+	height: 40px;
+    color: white;
+}
+#addbutton
+{
+    padding: 8px 16px;
+    width: 100%;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+    background-color: rgb(116, 162, 177); 
+    color: purple; 
+    border: 2px solid #008CBA;  
+        
+}
+#addbutton:hover {
+    background-color:  #008CBA;
+    border: 2px solid rgb(116, 162, 177);  
+    color: white;
+  }
+  #submitbut
+  {
+    background-color:  #008CBA; 
+    border: 2px solid rgb(116, 162, 177);  
+    color: white;
+    width: 50%;
+    padding: 8px 16px;
+  }

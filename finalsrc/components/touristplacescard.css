@@ -1,0 +1,43 @@
+#c123
+{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.headingss
+{
+    font-size: 30px;
+    color: #008CBA;
+    text-align: center;
+    text-transform: uppercase;
+}
+.para
+{
+  text-align: center;
+  color: purple;
+}
+#mymodalss
+{
+    background-image: url('../images/back5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#cimg
+{
+    box-shadow: 1px 2px 5px 0 #c3b683;
+    border-radius: 3px;
+    height: 150px;
+}
+a
+{
+  color:white;
+  text-decoration: none;
+}
+#titlecard
+{
+    text-transform: uppercase;
+    min-height: 50px;
+}
+.ccimages{
+    height: 90%;
+    width: 100%;
+}
