@@ -1,0 +1,30 @@
+#prodcat
+{
+    background-color: white;
+}
+#catt
+{
+    height: 20vw;
+}
+#cattimg
+{
+    height: 16vw;
+    width: 100%;
+}
+#prodhead
+{
+    font-size: 3vw;
+    color: teal;
+    font-weight: 700;
+    text-align: center;
+}
+#cccc
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+#cccctext
+{
+    font-size: 1.5vw;
+    text-align: center;
+}

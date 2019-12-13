@@ -1,0 +1,58 @@
+#productcartid
+{
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#productcartimage
+{
+    width: 100%;
+    height: 20vw;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+#middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  #productcard {
+    position: relative;
+    width: 50%;
+    margin-top: 20px;
+  }
+  #productcard:hover #productcartimage {
+    opacity: 0.3;
+  }
+  
+  #productcard:hover #middle1 {
+    opacity: 1;
+  }
+#productcarttext
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+#z1
+{
+    background-image: url('https://media.istockphoto.com/photos/textured-blue-painted-background-picture-id534129348?k=6&m=534129348&s=612x612&w=0&h=Bj4GXF6wQKxbqcgxO3Sg47gZeCORPk_0wofD2zeoKnM=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#m100
+{
+    text-align: center;
+    color:rgb(19, 111, 153);
+    font-weight: 700;
+}
