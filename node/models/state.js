@@ -26,7 +26,7 @@ const usersSchema =  mongoose.Schema({
     food:{type:String}, 
     img:{type:Array},
     products:[{type:ProductSchema}],
-    tourist:[TouristSchema]
+    tourist:[{type:TouristSchema}]
 
 }) //to create a schema
 const UsersModel = mongoose.model("state" , usersSchema);

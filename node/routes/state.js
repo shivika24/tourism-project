@@ -64,6 +64,32 @@ router.put('/stateupdate/:id',(req,res)=>{
     });
     //res.send('Users response from router');        
 })
+
+router.put('/update1/:id',(req,res)=>{
+    const a = req.params.id;
+    const name = req.body.name;
+    const desc = req.body.description;
+    const image = req.body.image;
+    const price = req.body.price;
+    const cat = req.body.category;
+    UsersModel.updateOne({'products._id':a},
+    {'$set': {
+        'products.$.name':name,
+        'products.$.description':desc,
+        'products.$.image':image,
+        'products.$.price':price,
+        'products.$.category':cat,
+    }},
+    function(err,model){
+        if(err){
+            console.log(err)
+            return res.send(err)
+        }
+        return res.json(model);
+    });   
+})
+
+
 router.put('/update/:id',(req,res)=>{
     const a = req.params.id;
     const name = req.body.name;
