@@ -1,0 +1,67 @@
+#pimage
+{
+    height: 90%;
+    width: 90%;
+    margin-top: 18px;
+    margin-left: 27px;
+    
+}
+#pppp
+{
+    text-align: center;
+    color:rgb(52, 144, 206);
+    font-weight: 800;
+}
+#pricee
+{
+    font-size: 2vw;
+    color: rgb(10, 38, 56);
+    text-align: center;
+}
+.productb {
+  
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 22px;
+  }
+.productb1
+{
+    background-color:#008CBA; 
+    color: white; 
+    border: 2px solid white;
+}
+.productb1:hover
+{
+    background-color: rgb(186, 0, 130);
+    color: black;
+}
+#z2
+{
+    background-image: url('https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app04.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#z3
+{
+    background-image: url('https://www.designbolts.com/wp-content/uploads/2013/12/Free-Christmas-Blue-Background-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#z4
+{
+    width: 95%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    margin-top: 12px;
+}

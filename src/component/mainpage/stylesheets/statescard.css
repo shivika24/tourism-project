@@ -1,0 +1,19 @@
+#mydiv {
+    padding: 10px;
+}
+#mydiv img{
+    height: 100%;
+    width: 100%;
+    padding: 1px;
+}
+.row{
+    margin-right: 0; 
+}
+#carddivmain{
+    box-shadow: 18px 21px 40px #7b5e32f0;
+    background-Image: linear-gradient(to right, rgb(185, 153, 91), rgba(199, 195, 148, 0.77), rgba(146, 115, 52, 0.64), rgba(211, 206, 151, 0.83), rgb(180, 141, 72));
+}
+#page{
+    
+    background-image: linear-gradient(to right, rgb(124, 104, 65), rgba(199, 195, 148, 0.77), rgba(146, 115, 52, 0.64), rgba(211, 206, 151, 0.83), rgb(129, 105, 63));
+}

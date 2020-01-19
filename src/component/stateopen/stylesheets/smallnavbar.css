@@ -1,0 +1,7 @@
+#smallnavbar{
+    background-Image:linear-gradient(to top, rgba(147, 128, 91, 0.7), rgba(173, 167, 94, 0.64), rgba(197, 152, 55, 0.64), rgba(197, 191, 129, 0.83), rgba(153, 118, 53, 0.57));
+
+}
+#smallnavbar a{
+    color: black;
+}

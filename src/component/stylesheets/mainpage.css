@@ -1,0 +1,28 @@
+.parallax {
+    background-image: url("http://www.transindiatravels.com/wp-content/uploads/the-taj-mahal-agra.jpg");
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax1 {
+    background-image: url("https://www.cleartrip.com/collections/wp-content/uploads/2019/01/Indian.jpg");
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    background-image: url("https://thefearlessindian.in/wp-content/uploads/2018/11/maxresdefault.jpg");
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
